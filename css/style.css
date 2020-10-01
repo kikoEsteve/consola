@@ -1,0 +1,53 @@
+.padre {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+    background-color: green;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    height: 500px;
+    width: 200px;
+    background-color: #00bbe1;
+    border-radius: 100px 0px 0px 100px;
+
+}
+
+.screen {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    background-color: #2e2f2e;
+    justify-content: center;
+    align-items: center;
+}
+
+.subScreen1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 470px;
+    width: 750px;
+    background-color: black;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.subScreen2 {
+    height: 400px;
+    width: 650px;
+    background-color: #212227;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.right {
+    display: flex;
+    height: 500px;
+    width: 200px;
+    background-color: #ff574a;
+    border-radius: 0px 100px 100px 0px;
+}
